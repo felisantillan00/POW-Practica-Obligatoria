@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../resources/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+header{
+    background: #02236D;
+    width: 100%;
+    line-height: 10px;
+    padding: 12px;
+    margin-bottom: 3%;
+    font-family: Montserrat,Arial,sans-serif;
+    color: #c4c1c1;
+}
+
+.h1{
+    /* text-align: center; */
+    
+}
+.link{
+    text-decoration: none;
+    font-family: Montserrat;
+
+}
+.linkk {
+    text-decoration: none;
+    color: white;
+}
+.linkk:hover{
+    text-decoration: underline;
+    color: #888888;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+.club{
+    margin-left: 2%;
+}
+
+footer li.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    margin: 0;
+    font-size: 15px;
+    text-transform: none;
+    font-family: montserrat, sans-serif;
+}
+
+footer{
+    margin-left: 0%;
+    margin-top: 20px;
+    background: #02236D;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+    
+}
+
+footer li{
+    display: inline;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
