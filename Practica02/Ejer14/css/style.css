@@ -12,10 +12,7 @@ header{
     color: #c4c1c1;
 }
 
-.h1{
-    /* text-align: center; */
-    
-}
+
 .link{
     text-decoration: none;
     font-family: Montserrat;
@@ -39,14 +36,34 @@ li{
     margin-left: 2%;
 }
 
-footer li.copyright{
-    position: absolute;
-    bottom: 0;
-    left: 10;
-    margin: 0;
-    font-size: 15px;
-    text-transform: none;
-    font-family: montserrat, sans-serif;
+
+
+.seguinos{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.linea{
+    padding-left: 25px;
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+.lineaPrincipal{
+    margin-left: 25px;
+    border: 1px solid #ffffff; 
+    width: 96%; 
+    margin-top: 57px;
+
+}
+.lineahr{
+    padding-left: 25px;
+    border: 1px solid #ffffff; 
+    width: 95%; 
+    margin-top: 30px;
 }
 
 footer{
@@ -62,7 +79,7 @@ footer{
 }
 
 footer li{
-    display: inline;
+    display: inline; /*Hace que la lista se hubique de forma horizontal y no vertical*/
     line-height: 26px;
     font-size: 14px;
     font-weight: 700;
@@ -71,3 +88,28 @@ footer li{
     color: white;
 }
 
+footer ul.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+footer li.copyright{
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    /* margin-left: 5%; */
+    padding-left: 5%;
+}
+
+footer li.desarrollado{
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    padding-right: 5%;
+}
