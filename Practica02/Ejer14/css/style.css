@@ -36,8 +36,6 @@ li{
     margin-left: 2%;
 }
 
-
-
 .seguinos{
     display: flex; 
     justify-content: center; 
@@ -71,11 +69,11 @@ footer{
     margin-top: 20px;
     background: #02236D;
     height: 200px;
+    /* Ver de retirar. position: absolute;*/
     position: absolute;
     bottom: 0;
     width: 100%;
     padding-top: 30px;
-    
 }
 
 footer li{
