@@ -2,16 +2,24 @@
     font-family: Montserrat;
     src: url(../resources/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
 header{
     background: #02236D;
     width: 100%;
     line-height: 10px;
-    padding: 12px;
+    padding: 25px;
     margin-bottom: 3%;
     font-family: Montserrat,Arial,sans-serif;
     color: #c4c1c1;
 }
-
 
 .link{
     text-decoration: none;
@@ -64,13 +72,15 @@ li{
     margin-top: 30px;
 }
 
+
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 0%;
     margin-top: 20px;
     background: #02236D;
     height: 200px;
-    /* Ver de retirar. position: absolute;*/
-    position: absolute;
     bottom: 0;
     width: 100%;
     padding-top: 30px;
@@ -87,7 +97,6 @@ footer li{
 }
 
 footer ul.copyright{
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -101,7 +110,7 @@ footer li.copyright{
     font-size: 15px;
     font-weight: normal;
     text-transform: none;
-    /* margin-left: 5%; */
+    margin-left: 5%;
     padding-left: 5%;
 }
 
