@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+    <link rel="stylesheet" href="css/main.css"> <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="css/button.css"> <!-- Enlace al archivo CSS personalizado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formulario" style="font-family: Roboto;">
+        <h1>Formulario de contacto</h1>
+        <form action="configuracion.html">
+            <div class="form-row">
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre:
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required>
+                </p>
+                <p>
+                    <label for="email" class="colocar_email">Email:
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_email" id="email" required>
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="telefono" class="colocar_telefono">Teléfono:</label>
+                    <input type="text" name="introducir_telefono" id="telefono">
+                </p>
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto:
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="asunto" required>
+                </p>
+            </div>
+            <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje:
+                    <span class="obligatorio">*</span>
+                </label>
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required></textarea>
+            </p>
+            <button type="submit" name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+            </button>
+            <p class="aviso">
+                <span class="obligatorio"><b>* </b></span><b>Los campos son obligatorios. </b>
+            </p>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(172, 68, 147); /* Establece un color de fondo morado. */
+    display: flex; /* Utiliza Flexbox para centrar el contenido. */
+    justify-content: center; /* Centra horizontalmente el formulario. */
+    align-items: center; /* Centra verticalmente el formulario. */
+    height: 100vh; /* Hace que el cuerpo del documento ocupe toda la altura de la ventana (100% del viewport height). */
+    margin: 0; /* Elimina cualquier margen que pudiera haber en el body. */
+}
+
+.cuadro{
+    background-color: white; /* El fondo del formulario es blanco. */
+    width: 650px; /* Establece un ancho fijo de 550px para el formulario. */
+    padding: 20px; /* Añade un espacio interno de 20px alrededor del contenido dentro del formulario. */
+    border-radius: 30px; /* Redondea las esquinas del formulario con un radio de 30px. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave al formulario para darle profundidad. */
+    margin-right: 15px; /* Añade un margen derecho para separarlos del borde */
+}
+
+h1 {
+    text-align: center; /* Centra el texto del título (h1) dentro del formulario. */
+    color: rgb(172, 68, 147); /* Cambia el color del texto del título al mismo morado del fondo de la página. */
+    margin-bottom: 20px; /* Añade un espacio de 20px debajo del título para separar los campos del formulario. */
+}
+
+#countdown {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}

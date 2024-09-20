@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <link rel="stylesheet" href="css/main.css"> <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cuadro">
+        <h1>Ingrese su CUIL/CUIT por favor</h1>
+        <form id="cuitForm">
+            <p>
+                <label for="cuit" class="colocar_nombre">CUIL/CUIT:</label>
+                <input type="text" name="introducir_cuit" id="cuit" maxlength="13" required>
+            </p>
+            <p id="resultado" style="color: red;"></p> <!-- Mensaje de validación -->
+            <button type="submit" name="enviar_formulario" id="enviar">
+                Confirmar CUIT / CUIL
+            </button>
+        </form>
+        <p id="resultado"></p> <!-- Aquí se mostrará el resultado -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

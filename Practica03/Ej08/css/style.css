@@ -1,0 +1,17 @@
+/* Asegura que las imágenes cubran el espacio completo */
+.img-fluid {
+    object-fit: cover;
+    height: 100%;
+}
+
+.bg-dark {
+    background-color: #333 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
