@@ -18,7 +18,14 @@ button {
     border-radius: 20px;
 }
 
+/* Efecto hover con el mouse */
 button:hover {
+    background-color: rgb(105, 105, 105);
+    color: black;
+}
+
+/* Efecto de hover simulado cuando se presiona una tecla */
+button.hover {
     background-color: rgb(105, 105, 105);
     color: black;
 }
