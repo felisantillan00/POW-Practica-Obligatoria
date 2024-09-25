@@ -8,7 +8,6 @@ let valorAnterior = '';
 let resultado = 0;
 let puntoAgregado = false; // para restringir que no se ingresen multiples puntos
 
-
 // Asocia teclas del teclado a los botones de la calculadora
 const teclas = {
     '0': document.getElementById("btCero"),
@@ -77,26 +76,6 @@ document.addEventListener("keyup", (event) => {
         teclas[tecla].classList.remove('hover');
     }
 });
-// //Manejo de los clicks sobre los botones
-// botones.forEach(boton =>{
-//     boton.addEventListener("click", () =>{
-//         manejarEntrada(boton.textContent)
-//     });
-// });
-
-// //Manejo de entrada del teclado
-// document.addEventListener("keydown", (event) => {
-//     let tecla = event.key;
-
-//     if(tecla === '*') tecla = 'x';
-//     if(tecla === '/') tecla = '÷';
-//     if(tecla === 'Enter') tecla = '=';
-//     if(tecla === 'Intro') tecla = '=';
-//     if(tecla === 'Escape') tecla = 'C';
-//     if(tecla === 'Backspace') tecla = '←';
-//     if(tecla === '-') tecla = '-';
-//     manejarEntrada(tecla);
-// })
 
 // Función que maneja tanto clics como teclas
 function manejarEntrada(entrada) {
