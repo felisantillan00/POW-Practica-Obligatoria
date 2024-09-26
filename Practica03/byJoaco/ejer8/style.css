@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
+    padding: 5%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulos{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.titulos h1{
+    color: rgb(212, 47, 96);
+    font-family: calibri;
+    letter-spacing: -1px;
+    transform-origin: bottom;
+    transform: scaleY(1.4);
+}
+.titulos p{
+    margin-left: 27%;
+    margin-right: 27%;
+    
+}
+
+.imagen{
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%; /* La imagen ocupa todo el alto de la columna */
+    object-fit: cover; /* Asegura que la imagen cubra todo el área, manteniendo proporciones */
+}
+
+.actividades{
+    background-color: rgb(252, 222, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Alinea horizontalmente a la izquierda */
+    
+}
+.actividad-color1{
+    background-color: rgb(51, 51, 51); 
+    color: #fff;
+}
+.actividad-color2{
+    background-color: rgb(255, 66, 66);
+    color: #fff;
+}
+
+.actividades h5{
+    font-size: 30px;
+    padding-left: 3%;
+    margin-bottom: 5%;
+}
+
+.actividades ul{
+    font-size: 17px;
+    padding-left: 7%;
+}
+
+.texto{
+    text-align: center;
+    padding: 2.5%;
+    color: rgb(72, 167, 255);
+    font-weight: 400;
+    font-size: 16px;
+}
