@@ -1,0 +1,98 @@
+body {
+    background-color: aqua; /* Color de fondo del body */
+    font-family: Roboto; /* Fuente utilizada en el cuerpo de la página */
+}
+
+.cuadrado {
+    background-color: white; /* Color de fondo blanco para el cuadro */
+    text-align: center; /* Centra el texto dentro del cuadro */
+    padding: 15px; /* Espaciado interno del cuadro */
+    margin-top: 20px;
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del cuadro */
+}
+
+h5 {
+    margin-bottom: 30px; /* Espaciado inferior del h5 para separarlo del input */
+}
+
+.input-container {
+    position: relative; /* Permite posicionar la etiqueta sobre el input */
+    margin-top: 20px; /* Espaciado superior entre los elementos */
+    margin-bottom: 20px; /* Espaciado inferior entre los elementos */
+    width: 100%; /* El ancho completo del contenedor */
+}
+
+input {
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho total */
+    width: 100%; /* Hace que el input ocupe el ancho completo del contenedor */
+    padding: 10px 15px; /* Espaciado interno del input */
+    font-size: 16px; /* Tamaño del texto dentro del input */
+    border: 2px solid #ccc; /* Borde gris claro alrededor del input */
+    border-radius: 5px; /* Bordes redondeados del input */
+    outline: none; /* Elimina el borde azul por defecto al hacer foco */
+    background-color: rgb(215, 215, 215); /* Color de fondo del input */
+    color: rgb(0, 0, 0); /* Color del texto dentro del input */
+    transition: all 0.3s ease; /* Suaviza las transiciones */
+    display: flex; /* Flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente el contenido dentro del input */
+}
+
+input:focus {
+    border-color: #ab4493; /* Cambia el color del borde cuando el input tiene foco */
+}
+
+label {
+    position: absolute; /* Posiciona la etiqueta flotante encima del input */
+    top: 50%; /* Coloca la etiqueta en el centro vertical del input */
+    left: 15px; /* Espaciado a la izquierda de la etiqueta */
+    transform: translateY(-50%); /* Ajusta la posición para centrar la etiqueta */
+    font-size: 16px; /* Tamaño del texto en la etiqueta */
+    color: #999; /* Color gris claro para la etiqueta */
+    transition: all 0.25s ease; /* Transición suave al mover la etiqueta */
+    pointer-events: none; /* Hace que la etiqueta no sea interactiva */
+    display: flex; /* Flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente la etiqueta */
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: 0; /* Mueve la etiqueta hacia arriba cuando el input tiene foco */
+    transform: translateY(-150%); /* Ajusta la altura de la etiqueta */
+    font-size: 12px; /* Reduce el tamaño de la etiqueta */
+    color: #ff0000; /* Cambia el color de la etiqueta cuando está activa */
+}
+
+button {
+    padding-left: 5px; /* Espaciado interno izquierdo del botón */
+    padding-right: 5px; /* Espaciado interno derecho del botón */
+    margin: 10px auto 20px; /* Margen superior e inferior */
+    border-color: #ab4493; /* Color del borde del botón */
+    border-style: solid; /* Estilo del borde del botón */
+    border-radius: 25px; /* Bordes redondeados del botón */
+    width: 100%; /* Ancho completo del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por el botón */
+    color: #fff; /* Color del texto dentro del botón */
+}
+
+.btnGen {
+    background-color: #0000ff; /* Color de fondo azul del botón Generar */
+}
+
+.btnReiniciar {
+    background-color: red; /* Color de fondo rojo del botón de reinicio */
+}
+
+button:hover {
+    background-color: #61094c; /* Cambia el color de fondo cuando el botón es hover */
+    box-shadow: 0px 0px 20px #606060; /* Agrega una sombra alrededor del botón */
+}
+
+button p {
+    color: #fff; /* Color blanco para el texto dentro de los botones */
+    margin: 0; /* Elimina márgenes dentro de los botones */
+}
+
+p {
+    margin: 10px; /* Margen de los párrafos generales */
+}

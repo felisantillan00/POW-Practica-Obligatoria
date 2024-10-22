@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="cuadrado">
+                    <h3>Numero al azar entre con rango X e Y de valores</h3>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="input-container">
+                                <input type="text" id="valorMin" placeholder=" " required>
+                                <label for="valorMin">Valor mínimo</label> 
+                            </div>
+                            <p id="rango"></p><!-- Para mostrar los extremos -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-container">
+                                <input type="text" id="valorMax" placeholder=" " required>
+                                <label for="valorMax">Valor máximo</label>
+                            </div>
+                            <p id="valResultante"></p> <!-- Para mostrar el valor aleatorio -->
+                        </div>
+                    </div>
+                    <div>
+                        <button id="btnGenerar" class="btn btn-primary w-100 mt-3">Generar número aleatorio</button>
+                        <button id="btnReiniciar" class="btn btn-secondary w-100 mt-3">Reiniciar todo el generador</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
